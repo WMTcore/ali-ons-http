@@ -1,0 +1,21 @@
+{
+  "name": "ali-ons-http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-egg": "^5.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wmt",
+  "license": "MIT",
+  "dependencies": {
+    "@aliyunmq/mq-http-sdk": "^1.0.2",
+    "is-type-of": "^1.2.1",
+    "mz-modules": "^2.1.0",
+    "sdk-base": "^3.6.0"
+  }
+}
