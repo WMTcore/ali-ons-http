@@ -17,5 +17,10 @@
     "is-type-of": "^1.2.1",
     "mz-modules": "^2.1.0",
     "sdk-base": "^3.6.0"
+  },
+  "homepage": "https://github.com/WMTcore/ali-ons-http",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WMTcore/ali-ons-http.git"
   }
 }
