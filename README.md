@@ -19,7 +19,8 @@ const consumer = new Consumer({
   accessKeyId: 'your-accessKeyId',
   accessKeySecret: 'your-AccessKeySecret',
   consumerGroup: 'your-consumer-group',
-  // onsAddr: '' // ons http的接入地址
+  // onsAddr: '', // ons http的接入地址
+  // instanceId:'', // 公网实例不要填,会报权限问题
 });
 
 consumer.subscribe(config.topic, '*', async msg => {
@@ -40,7 +41,8 @@ const producer = new Producer({
   accessKeyId: 'your-accessKeyId',
   accessKeySecret: 'your-AccessKeySecret',
   producerGroup: 'your-producer-group',
-  // onsAddr: '' // ons http的接入地址
+  // onsAddr: '', // ons http的接入地址
+  // instanceId:'', // 公网实例不要填,会报权限问题
 });
 
 (async () => {
