@@ -19,7 +19,7 @@ const consumer = new Consumer({
   accessKeyId: 'your-accessKeyId',
   accessKeySecret: 'your-AccessKeySecret',
   consumerGroup: 'your-consumer-group',
-
+  // onsAddr: '' // ons http的接入地址
 });
 
 consumer.subscribe(config.topic, '*', async msg => {
@@ -39,7 +39,8 @@ const Message = require('ali-ons-http').Message;
 const producer = new Producer({
   accessKeyId: 'your-accessKeyId',
   accessKeySecret: 'your-AccessKeySecret',
-  producerGroup: 'your-producer-group'
+  producerGroup: 'your-producer-group',
+  // onsAddr: '' // ons http的接入地址
 });
 
 (async () => {
